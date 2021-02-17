@@ -1,6 +1,7 @@
 name: Auto Update Checking
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "* * * * *"
 
