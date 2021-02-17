@@ -20,8 +20,7 @@
         "Language": "csharp",
         "Website": "http://www.barocio.net",
         "UrlDownload": "https://github.com/jjw24/Wox.Plugin.Runner/releases/download/v2.2.0/Wox.Plugin.Runner.zip",
-        "UrlSourceCode": "https://github.com/jjw24/Wox.Plugin.Runner/tree/master",
-        "E-tag": "W/\"624d98b8a9d74b5c8bb26cc3abd3c5896bdf2ea40ed74625117611bb6c0b40ea\""
+        "UrlSourceCode": "https://github.com/jjw24/Wox.Plugin.Runner/tree/master"
     },
     {
         "ID": "c3406b5c-22f0-4984-b018-3dae897cab3f",
