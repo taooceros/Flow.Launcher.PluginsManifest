@@ -3,7 +3,7 @@ name: Auto Update Checking
 on:
   workflow_dispatch:
   schedule:
-    - cron: "* * * * *"
+    - cron: "*/20 * * * *"
 
 jobs:
   CheckUpdate:
@@ -27,4 +27,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           message: auto checking update
+          branch: main
         
