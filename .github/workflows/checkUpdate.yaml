@@ -18,8 +18,8 @@ jobs:
           python-version: 3.8
 
       - name: Auto Checking Update
-        run: /
-          pip install request
+        run: \
+          pip install request \
           python updateChecker.py
 
       - name: Commit & Push changes
