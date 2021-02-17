@@ -18,7 +18,9 @@ jobs:
           python-version: 3.8
 
       - name: Auto Checking Update
-        run: python updateChecker.py
+        run: /
+          pip install request
+          python updateChecker.py
 
       - name: Commit & Push changes
         uses: actions-js/push@master
